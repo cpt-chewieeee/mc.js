@@ -18,6 +18,7 @@ const UserMutations = {
     }
   },
   async login(parent, args, { prisma }) {
+    console.log('my args', args.data)
     const user = await prisma.query.user({
       where: {
         email: args.data.email
