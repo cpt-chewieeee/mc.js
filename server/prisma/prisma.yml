@@ -3,4 +3,4 @@ datamodel: datamodel.graphql
 secret: demo-secret
 generate:
   - generator: graphql-schema
-    output: ../src/generated
+    output: ../src/generated/prisma.graphql
