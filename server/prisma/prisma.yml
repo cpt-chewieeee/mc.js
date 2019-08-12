@@ -2,5 +2,5 @@ endpoint: http://localhost:4466
 datamodel: datamodel.graphql
 secret: demo-secret
 generate:
-  - generator: typescript-client
-    output: ../src/generated/prisma.graphql
+  - generator: graphql-schema
+    output: ../src/generated
